@@ -1,6 +1,7 @@
 import Card from "./Card";
 
 function CardList({ cards }) {
+  //test
   return (
     <div className="card-list">
       {cards.map((card) => (

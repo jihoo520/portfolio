@@ -3,7 +3,7 @@ import Card from './Card';
 const dataBaseCards = [
   { id: 9, 
     name: "MySQL", 
-    img: "/img/mysql.png", 
+    img: process.env.PUBLIC_URL + "/img/mysql.png", 
     description: "관계형 DB",
     modalDescription: (
       <div>
@@ -17,7 +17,7 @@ const dataBaseCards = [
 
   { id: 10, 
     name: "ORACLE",
-    img: "/img/oracle.png", 
+    img: process.env.PUBLIC_URL + "/img/oracle.png", 
     description: "자바와 찰떡궁합",
     modalDescription: (
       <div>

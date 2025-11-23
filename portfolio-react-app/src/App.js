@@ -14,7 +14,7 @@ function App() {
   
   const sections = [
     { 
-      title: "최근수의 포트폴리오", 
+      title: "전지후의 포트폴리오", 
       component: <Intro />,
       id: "intro"
     },
@@ -109,7 +109,7 @@ function App() {
           <div className="content-inner">
             
             <div ref={el => sectionRefs.current[0] = el} className="section-wrapper" id="intro">
-              <Section title="최근수의 포트폴리오">
+              <Section title="전지후의 포트폴리오">
                 <Intro />
               </Section>
             </div>

@@ -1,7 +1,7 @@
 import Card from './Card';
 
 const frontendCards = [
-  { id: 1, name: "HTML", img: "/img/html.svg.png", description: "웹의 뼈대",
+  { id: 1, name: "HTML", img: process.env.PUBLIC_URL + "/img/html.svg.png", description: "웹의 뼈대",
     modalDescription: 
     (
       <div>
@@ -13,7 +13,7 @@ const frontendCards = [
       </div>
     ),
     type: "frontend" },
-  { id: 2, name: "CSS", img: "/img/css.svg.png", description: "스타일링",
+  { id: 2, name: "CSS", img: process.env.PUBLIC_URL + "/img/css.svg.png", description: "스타일링",
     modalDescription: (
     <div>
       HTML 요소를 꾸미는<br/>
@@ -24,7 +24,7 @@ const frontendCards = [
       </div>
       ),
     type: "frontend" },
-  { id: 3, name: "JavaScript", img: "/img/JavaScript.png", description: "로직 처리",
+  { id: 3, name: "JavaScript", img: process.env.PUBLIC_URL + "/img/JavaScript.png", description: "로직 처리",
     modalDescription: (
     <div>
       동적 기능과 로직 제어를<br/>
@@ -34,7 +34,7 @@ const frontendCards = [
       </div>
     ),
     type: "frontend" },
-  { id: 4, name: "React", img: "/img/logo512.png", description: "컴포넌트 기반",
+  { id: 4, name: "React", img: process.env.PUBLIC_URL + "/img/logo512.png", description: "컴포넌트 기반",
     modalDescription: (
     <div>
       컴포넌트 기반 UI<br/>
@@ -45,7 +45,7 @@ const frontendCards = [
       </div>
       ),
     type: "frontend" },
-  { id: 5, name: "ReactNative", img: "/img/RN.png", description: "컴포넌트 기반",
+  { id: 5, name: "ReactNative", img: process.env.PUBLIC_URL + "/img/RN.png", description: "컴포넌트 기반",
     modalDescription: (
       <div>
         앱 개발 프레임워크<br/>

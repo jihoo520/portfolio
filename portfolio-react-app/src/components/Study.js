@@ -7,7 +7,7 @@ const studyCards = [
   {
     id: 1,
     name: "국비수업",
-    img: "/img/aws.png",
+    img: process.env.PUBLIC_URL + "/img/aws.png",
     description: "📘 국비 6개월 과정 정리",
     modalDescription: (
       <div>
@@ -48,7 +48,7 @@ const studyCards = [
   {
     id: 2,
     name: "Linux",
-    img: "/img/linux.png",
+    img: process.env.PUBLIC_URL + "/img/linux.png",
     description: "📘 Linux 공부",
     modalDescription: (
       <div>

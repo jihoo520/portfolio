@@ -1,7 +1,7 @@
 import Card from './Card';
 
 const backendCards = [
-  { id: 5, name: "C", img: "/img/c.png", description: "컴퓨팅 언어의 근본", 
+  { id: 5, name: "C", img: process.env.PUBLIC_URL + "/img/c.png", description: "컴퓨팅 언어의 근본", 
     modalDescription: (
       <div>
         컴퓨터 구조와 포인터<br />
@@ -13,7 +13,7 @@ const backendCards = [
       </div>
     ),
     type: "backend" },
-  { id: 6, name: "Python", img: "/img/python.webp", description: "쉽고 빠른 개발", 
+  { id: 6, name: "Python", img: process.env.PUBLIC_URL + "/img/python.webp", description: "쉽고 빠른 개발", 
     modalDescription: (
       <div>
         간결한 문법으로<br />데이터 처리와 빠른<br />
@@ -25,7 +25,7 @@ const backendCards = [
       </div>
     ),
     type: "backend" },
-  { id: 7, name: "Java", img: "/img/java.png", description: "백엔드 핵심",
+  { id: 7, name: "Java", img: process.env.PUBLIC_URL + "/img/java.png", description: "백엔드 핵심",
     modalDescription: (
       <div>
         객체지향 기반의<br />
@@ -36,7 +36,7 @@ const backendCards = [
       </div>
     ),
     type: "backend" },
-  { id: 8, name: "SpringBoot", img: "/img/springBoot.png", description: "백엔드 프레임워크",
+  { id: 8, name: "SpringBoot", img:process.env.PUBLIC_URL + "/img/springBoot.png", description: "백엔드 프레임워크",
     modalDescription: (
       <div>
         REST API 구현에 적합한<br />

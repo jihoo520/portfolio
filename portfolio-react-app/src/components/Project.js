@@ -7,21 +7,21 @@ const projectCards = [
   {
     id: 11,
     name: "ai냉장고 레시피",
-    img: "/img/shelter_logo.png",
-    description: "첫 개인프로젝트",
+    img: process.env.PUBLIC_URL + "/img/refrAI_icon.png", 
+    description: "팀 프로젝트",
     modalDescription: (
       <div>
-        더위, 한파, 대피소<br />
-        모든 것이 한 개의
-        프로젝트에!
+        AI래시피 생성, 상담, 식단 생성<br />
+        냉자고에 있는 재료를 이용하여 사용자에게 맞춤 
+        레시피를 추천하는 Ai 기반 서비스
         <br />
         자세한 코드는{" "}
         깃허브에서<br />확인해주세요
         <br />
         <br />
         작업기간:<br />
-        2025.05.10~2025.07.11<br />
-        <a href="https://github.com/guensoo/ShelterApp" target="_blank" rel="noreferrer" style={{
+        2025.06.10~2025.08.07<br />
+        <a href="https://github.com/jihoo520/RefrAI-progect" target="_blank" rel="noreferrer" style={{
           display: "inline-block",
           marginTop: "10px",
           padding: "8px 16px",
@@ -32,7 +32,7 @@ const projectCards = [
         }}>
           💻 GitHub 코드 보기
         </a>
-        <a href="https://www.shelter.io.kr/" target="_blank" rel="noreferrer" style={{
+        <a href="http://team-ai-refrigerator-react-project.s3-website.ap-northeast-2.amazonaws.com/" target="_blank" rel="noreferrer" style={{
           display: "inline-block",
           marginTop: "10px",
           padding: "8px 16px",
@@ -49,7 +49,7 @@ const projectCards = [
   },
   {
     id: 12,
-    name: "유기동물입양 웹",
+    name: "DREAMI",
     img: "/img/MainLogo.png",
     description: "첫 팀프로젝트",
     modalDescription: (
@@ -64,8 +64,8 @@ const projectCards = [
         <br />
         <br />
         작업기간:<br />
-        2025.06.09~2025.07.04.<br />
-        <a href="http://teamproject-uka.s3-website.ap-northeast-2.amazonaws.com/" target="_blank" rel="noreferrer" style={{
+        2023.03.06~2023.06.28.<br />
+        <a href="http://127.0.0.1:5001" target="_blank" rel="noreferrer" style={{
           display: "inline-block",
           marginTop: "10px",
           padding: "8px 16px",

@@ -10,6 +10,8 @@ function Card({ card }) {
     const [rotateY, setRotateY] = useState(0);
     const cardRef = useRef(null);
 
+    console.log(card.img)
+
     const handleMouseMove = (e) => {
         if (isFlipped) return;
 
